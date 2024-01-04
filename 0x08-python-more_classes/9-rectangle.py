@@ -2,7 +2,6 @@
 
 '''module for shapes'''
 
-
 class Rectangle:
     '''class for rectangle'''
 
@@ -64,6 +63,11 @@ class Rectangle:
         r1 = rect_1.width * rect_1.height
         r2 = rect_2.width * rect_2.height
         return (rect_1 if r1 > r2 or r1 == r2 else rect_2)
+
+    @classmethod
+    def square(cls, size=0):
+        """ creates a new instance with width and height equals to size """
+        return cls(size, size)
 
     def __str__(self):
         """ prints the string representation of a rectangular class """
