@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+""" module for task 3 """
 
 
 def is_kind_of_class(obj, a_class):
-    if isinstance(obj, a_class):
-        return True
-    else:
-        return False
+    """ returns an instance of a class """
+    return isinstance(obj, a_class)
+ 

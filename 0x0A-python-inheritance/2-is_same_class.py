@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+""" module of task 2 """
 
 
 def is_same_class(obj, a_class):
-    if type(obj) is a_class:
-        return True
-    else:
-        return False
+    """ returns true if an object is an instance of a class """
+    return type(obj) is a_class
