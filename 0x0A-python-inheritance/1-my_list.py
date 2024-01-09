@@ -1,4 +1,5 @@
-ass list and its sub class"""
+#!/usr/bin/python3
+""" module for class list and its sub class"""
 
 
 class MyList(list):
