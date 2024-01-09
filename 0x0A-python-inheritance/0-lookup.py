@@ -2,4 +2,5 @@
 
 
 def lookup(obj):
-    return dir(obj)
+	""" returns the list of class attributies and object methods """
+	return dir(obj)
