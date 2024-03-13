@@ -1,12 +1,12 @@
 #!/usr/bin/node
+// Prints x times 'C is fun'
 
-const process = require('process');
-const arg = process.argv[2];
-const String = 'C is fun';
-if (isNaN(arg)) {
-  console.log('Missing number of occurrences');
+const args = process.argv;
+const num = parseInt(args[2], 10);
+if (isNaN(num)) {
+  console.log('Missing number of occurences');
 } else {
-  for (let index = 0; index < arg; index++) {
-    console.log(String);
+  for (let i = 0; i < args[2]; i++) {
+    console.log('C is fun');
   }
 }
